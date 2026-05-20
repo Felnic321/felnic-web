@@ -265,36 +265,37 @@ export default function FelnicLanding() {
           id="inicio"
           className="relative overflow-hidden bg-gradient-to-br from-emerald-950 via-stone-900 to-stone-800"
         >
-          <div className="mx-auto grid max-w-7xl gap-10 px-5 py-24 text-white md:grid-cols-2 md:items-center md:py-32">
-            <div>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">
-                Muebles a medida
-              </p>
+<div className="mx-auto grid max-w-7xl gap-10 px-5 py-24 text-white lg:grid-cols-2 md:items-center md:py-32">
+  <img
+    src="/images/logo-2.png"
+    alt="Logo Felnic"
+    className="h-64 w-full object-contain md:h-80 lg:col-start-1"
+  />
 
-              <h1 className="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
-                Diseñamos y fabricamos muebles de melamina a medida
-              </h1>
+  <div className="lg:col-start-2">
+    <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">
+      Muebles a medida
+    </p>
 
-              <p className="mt-6 max-w-xl text-lg leading-8 text-stone-200">
-                Cocinas, placares, racks, escritorios y muebles de guardado.
-              </p>
+    <h1 className="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
+      Diseñamos y fabricamos muebles de melamina a medida
+    </h1>
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Button href="#presupuesto">
-                  Pedir presupuesto →
-                </Button>
+    <p className="mt-6 max-w-xl text-lg leading-8 text-stone-200">
+      Cocinas, placares, racks, escritorios y muebles de guardado.
+    </p>
 
-                <Button href="#trabajos" variant="secondary">
-                  Ver trabajos
-                </Button>
-              </div>
-            </div>
+    <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+      <Button href="#presupuesto">Pedir presupuesto →</Button>
 
-            <img
-              src="/images/logo-2.png"
-              alt="Logo Felnic"
-              className="h-64 w-full rounded-[1.25rem] object-contain md:h-80"
-            />
+      <Button href="#trabajos" variant="secondary">
+        Ver trabajos
+      </Button>
+    </div>
+  </div>
+
+
+        
           </div>
         </section>
 
