@@ -18,7 +18,7 @@ const pasos = [
   {
     icon: "💬",
     title: "Nos escribís",
-    text: "Contanos qué mueble necesitás, tu zona y medidas aproximadas.",
+    text: "Contanos qué mueble necesitás y medidas aproximadas.",
   },
   {
     icon: "📐",
@@ -168,7 +168,7 @@ function PresupuestoForm() {
   }
 
   return (
-    <form className="rounded-[2rem] bg-white p-6 text-stone-900 shadow-2xl">
+    <form className="w-full max-w-full rounded-[2rem] bg-white p-4 sm:p-6 text-stone-900 shadow-2xl">
       <h3 className="text-2xl font-semibold">Solicitar presupuesto</h3>
 
       <div className="mt-6 grid gap-4">
@@ -196,7 +196,7 @@ function PresupuestoForm() {
             Medidas aproximadas (en metros)
           </p>
 
-          <div className="grid gap-3 sm:grid-cols-3">
+          <div className="grid gap-3 grid-cols-1 sm:grid-cols-3">
             <input
               placeholder="Largo"
               className="rounded-2xl border border-stone-300 px-4 py-3"
@@ -319,22 +319,22 @@ export default function FelnicLanding() {
         <section id="trabajos" className="bg-white py-20">
           <div className="mx-auto max-w-7xl px-5">
             <div className="mb-10 flex items-end justify-between">
-              <h2 className="text-3xl font-bold md:text-4xl">
-                Algunos trabajos
-              </h2>
-
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-row gap-3">
   <Button href={instagramUrl}>
     Ver Instagram @felnic.m
   </Button>
 
   <Button
-    href={`https://wa.me/${whatsappNumber}?text=Hola%20Felnic%2C%20quiero%20hacer%20una%20consulta`}
-    variant="outline"
-  >
-    Escribir por WhatsApp
-  </Button>
+  href={`https://wa.me/${whatsappNumber}?text=Hola%20Felnic%2C%20quiero%20hacer%20una%20consulta`}
+>
+  Escribir por WhatsApp
+</Button>
 </div>
+<h2 className="text-3xl font-bold md:text-4xl">
+                Algunos trabajos
+              </h2>
+
+              
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
