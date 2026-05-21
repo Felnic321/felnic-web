@@ -318,7 +318,7 @@ export default function FelnicLanding() {
 
         <section id="trabajos" className="bg-white py-20">
           <div className="mx-auto max-w-7xl px-5">
-            <div className="mb-10 flex flex-col items-start gap-6">
+            <div className="mb-16 flex flex-col items-start gap-6">
               <div className="flex flex-wrap gap-3">
   <Button href={instagramUrl}>
     Ver Instagram @felnic.m
@@ -418,8 +418,8 @@ export default function FelnicLanding() {
           </div>
         </section>
 
-        <section id="presupuesto" className="bg-stone-900 py-20 text-white">
-<div className="mx-auto grid w-full max-w-7xl gap-6 px-4 sm:px-5 md:grid-cols-2">           <div>
+        <section id="presupuesto" className="overflow-hidden bg-stone-900 py-12 md:py-20 text-white">
+<div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 md:grid md:grid-cols-2 md:gap-10 md:px-5">           <div>
               <h2 className="text-3xl font-bold md:text-5xl">
                 Contanos qué mueble necesitás
               </h2>
