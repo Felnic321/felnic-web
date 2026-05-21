@@ -412,8 +412,7 @@ export default function FelnicLanding() {
         </section>
 
         <section id="presupuesto" className="bg-stone-900 py-20 text-white">
-          <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-2">
-            <div>
+<div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-2">            <div>
               <h2 className="text-3xl font-bold md:text-5xl">
                 Contanos qué mueble necesitás
               </h2>
@@ -423,8 +422,9 @@ export default function FelnicLanding() {
               </p>
             </div>
 
-            <PresupuestoForm />
-          </div>
+<div className="-ml-5">
+  <PresupuestoForm />
+</div>      </div>   
         </section>
         {imagenAbierta && (
   <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4">
