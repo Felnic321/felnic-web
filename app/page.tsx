@@ -2,9 +2,7 @@
 
 import React, { useMemo, useState } from "react";
 
-const whatsappNumber = "5491161079798";
-const whatsappSecundario =
-  "https://wa.me/5491133432795?text=Hola%20Felnic%2C%20quiero%20hacer%20una%20consulta";
+const whatsappNumber = "5491171072056";
 const instagramUrl = "https://www.instagram.com/felnic.m";
 
 const servicios = [
@@ -325,9 +323,18 @@ export default function FelnicLanding() {
                 Algunos trabajos
               </h2>
 
-              <Button href={instagramUrl} variant="outline">
-                Ver Instagram
-              </Button>
+              <div className="flex flex-col gap-3">
+  <Button href={instagramUrl}>
+    Ver Instagram @felnic.m
+  </Button>
+
+  <Button
+    href={`https://wa.me/${whatsappNumber}?text=Hola%20Felnic%2C%20quiero%20hacer%20una%20consulta`}
+    variant="outline"
+  >
+    Escribir por WhatsApp
+  </Button>
+</div>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
