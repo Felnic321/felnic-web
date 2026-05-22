@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Felnic | Muebles a medida en Zona Norte",
   description:
     "Diseño y fabricación de muebles de melamina a medida. Cocinas, placares, racks, escritorios y muebles personalizados en Zona Norte.",
+    verification: {
+  google: "OGkpJ9YtV_kO0VJb5NmKCNn54D1U19G76y_Ndljlh_I",
+},
 };
 
 export default function RootLayout({
