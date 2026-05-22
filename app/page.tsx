@@ -176,13 +176,13 @@ function PresupuestoForm() {
           value={form.nombre}
           onChange={(e) => updateField("nombre", e.target.value)}
           placeholder="Nombre"
-          className="rounded-2xl border border-stone-300 px-4 py-3"
+          className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
         />
 
         <select
           value={form.tipo}
           onChange={(e) => updateField("tipo", e.target.value)}
-          className="rounded-2xl border border-stone-300 px-4 py-3"
+          className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
         >
           <option value="">Tipo de mueble</option>
 
@@ -199,17 +199,17 @@ function PresupuestoForm() {
           <div className="grid gap-3 grid-cols-1 sm:grid-cols-3">
             <input
               placeholder="Largo"
-              className="rounded-2xl border border-stone-300 px-4 py-3"
+              className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
             />
 
             <input
               placeholder="Profundidad"
-              className="rounded-2xl border border-stone-300 px-4 py-3"
+              className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
             />
 
             <input
               placeholder="Altura"
-              className="rounded-2xl border border-stone-300 px-4 py-3"
+              className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
             />
           </div>
         </div>
@@ -218,7 +218,7 @@ function PresupuestoForm() {
           type="file"
           accept="image/*,.pdf"
           onChange={handleFileChange}
-          className="rounded-2xl border border-stone-300 px-4 py-3"
+          className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
         />
 
         <textarea
@@ -226,7 +226,7 @@ function PresupuestoForm() {
           onChange={(e) => updateField("referencia", e.target.value)}
           placeholder="Comentario o idea"
           rows={4}
-          className="rounded-2xl border border-stone-300 px-4 py-3"
+          className="w-full min-w-0 rounded-2xl border border-stone-300 px-4 py-3"
         />
 
         <Button href={whatsappUrl}>
